@@ -11,6 +11,8 @@ Learn from messages sent to people, not from their prompts to AI. People write t
 
 Drop pasted logs or code, forwarded or quoted text, bare links, one-word replies ("ok", "done", "haan") and bot or template messages. They skew the numbers without saying anything about the voice.
 
+Also drop messages an AI wrote for them. Many people send through an assistant or a Slack or email connector, so their sent history is partly AI, and learning from it teaches the AI its own voice back. In a real run, about 1 in 6 "sent" messages turned out to be AI drafts. Signs: em dashes, "•" bullets, bold or headings, and messages many times longer and more polished than the person's usual one. Curly quotes (’ “ ”) are a hint, not proof, because phone keyboards type them by default. Don't decide alone: in step 2, describe two or three of the suspects and ask.
+
 Tag each remaining message with its audience: peer, manager, channel, external, plus any other group that clearly writes differently. Set three aside, from different audiences, for the test in step 5.
 
 ## 2. Ask only what the samples can't show
@@ -22,6 +24,7 @@ Ask these together in one message, and skip any the samples already answer:
 3. Anything you never do? Emojis, em dashes, "hope this helps", sign-offs, exclamation marks, bullet points in chat.
 4. What does AI keep getting wrong about how you sound?
 5. Is there anyone you write to very differently from everyone else?
+6. Only if step 1 found likely AI drafts: these look AI-written (name two or three in a few words each). Did you type them, did an AI draft them, or did an AI draft them and you edit? Leave out the AI drafts. Use edited ones for length and structure only, never wording.
 
 Question 4 usually gives the most. Turn each complaint into a Never rule.
 

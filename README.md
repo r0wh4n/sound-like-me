@@ -40,7 +40,7 @@ flowchart LR
     E -- "no" --> G["You send it"]
 ```
 
-1. **Learn.** It reads 15 to 60 messages you sent to real people, asks you five quick questions, and writes your voice to `~/.voice/VOICE.md`. It then tests itself on three messages it held back and fixes what you say is off.
+1. **Learn.** It reads 15 to 60 messages you sent to real people, leaves out anything an AI wrote for you, asks a few quick questions, and writes your voice to `~/.voice/VOICE.md`. It then tests itself on three messages it held back and fixes what you say is off.
 2. **Draft.** Ask for a message. It works out who it's for, writes it in your voice for that audience, and checks it against your real examples before showing it.
 3. **Correct.** When you change a draft before sending, the change is saved. Every 20 or so corrections get folded into the rules, so drafts keep getting closer.
 
@@ -49,6 +49,7 @@ flowchart LR
 | What it does | Why it matters |
 |---|---|
 | **Learns from what you send, not what you prompt** | You write to an AI differently from how you write to people. A voice learned from your prompts comes out wrong. |
+| **Skips what AI wrote for you** | If you send through an assistant, part of your "sent" history is AI. It flags those messages and asks, so it learns you, not itself. |
 | **One voice per audience** | You don't text your teammate the way you email a vendor. Each audience gets its own section. |
 | **Quirks at your real rate** | It notes *how often* you write "h" for "hai" or skip punctuation, so drafts don't turn into a parody of you. |
 | **Gets better from your edits** | The gap between its draft and what you actually sent is the best signal there is, and it keeps it. |
@@ -102,7 +103,7 @@ If the tool can't read files outside the project, paste the file's contents into
 
 | You say | It does |
 |---|---|
-| `learn my voice` | Collects your sent messages, asks five questions, writes `VOICE.md`, tests it |
+| `learn my voice` | Collects your sent messages, asks a few questions, writes `VOICE.md`, tests it |
 | `reply to this in my tone: <message>` | Drafts a reply for that audience |
 | `slack the team that the deploy moves to 6pm` | Drafts a channel announcement in your channel voice |
 | `no, i'd say "kal tak", not "by tomorrow"` | Saves a correction and redoes the draft |
