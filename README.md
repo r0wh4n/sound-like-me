@@ -9,7 +9,7 @@ and gets Claude, Codex, ChatGPT or any other agent to draft in that voice.<br>
 One file, every tool.
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-skill-D97757?style=flat-square)](#claude-code)
-[![Codex](https://img.shields.io/badge/Codex-AGENTS.md-111111?style=flat-square)](#codex)
+[![Codex](https://img.shields.io/badge/Codex-AGENTS.md-6E56CF?style=flat-square)](#codex)
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-custom_instructions-10A37F?style=flat-square)](#chatgpt--claudeai)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
@@ -46,7 +46,7 @@ flowchart LR
 
 ## Why not just "write like me" in a prompt?
 
-| | |
+| What it does | Why it matters |
 |---|---|
 | **Learns from what you send, not what you prompt** | You write to an AI differently from how you write to people. A voice learned from your prompts comes out wrong. |
 | **One voice per audience** | You don't text your teammate the way you email a vendor. Each audience gets its own section. |
