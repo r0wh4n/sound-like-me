@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.png" width="160" alt="sound-like-me logo: a speech bubble holding a sound wave that turns into a fingerprint">
+
 # sound-like-me
 
 **Your AI drafts messages that sound like you, not like an AI.**
